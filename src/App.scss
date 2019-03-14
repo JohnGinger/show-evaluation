@@ -1,0 +1,56 @@
+info-block,
+evaluation-block {
+  padding: 1em;
+  display: block;
+  content-container {
+    display: flex;
+    task-lozenge {
+      padding: 0.5em;
+      border: 1px solid black;
+      border-radius: 8px;
+      margin-right: 8px;
+    }
+  }
+}
+
+table {
+  text-align: left;
+  .evaluation-row {
+    border: 1px solid black;
+  }
+
+  td {
+    padding: 10px;
+    border-top: 1px solid;
+    border-bottom-color: currentcolor;
+    border-color: #e0e0e0;
+  }
+  flex: 2 1 auto;
+}
+
+.graph {
+  flex: 1 1 auto;
+}
+
+tooltip-container {
+  background-color: white;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: block;
+
+  h3 {
+    margin: 0;
+  }
+}
+button {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #21cbce;
+  padding: 5px 12px;
+  color: white !important;
+  text-decoration: none !important;
+}
