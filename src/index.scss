@@ -8,15 +8,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+button {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #21cbce;
+  padding: 5px 12px;
+  color: white !important;
+  text-decoration: none !important;
 }
-
-.paperSelector {
-  padding: 1em;
-  width: calc(100vw - 2em);
-  margin: 1em;
-  box-sizing: border-box;
-}
-

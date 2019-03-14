@@ -1,0 +1,16 @@
+evaluation-table {
+  table {
+    text-align: left;
+    .evaluation-row {
+      border: 1px solid black;
+    }
+
+    td {
+      padding: 10px;
+      border-top: 1px solid;
+      border-bottom-color: currentcolor;
+      border-color: #e0e0e0;
+    }
+    flex: 2 1 auto;
+  }
+}
